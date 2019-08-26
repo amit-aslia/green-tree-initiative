@@ -224,21 +224,7 @@
     margin-top: 0em;
     
 }
-.takeActionContent > div > h2
-{
-    color: #354463;
-    text-align: left;
-    font-family: Helvetica;
-    font-weight: bold;
-}
-.takeActionContent div p
-{
-    color: #354463;
-    font-family: helvetica;
-    font-weight: light;
-    font-size: 90%;
-    line-height: 1.5;
-}
+
 .takeAction
 {
     position: absolute;
@@ -250,14 +236,292 @@
     background: #354463 0% 0% no-repeat padding-box;
     
 }
-.takeAction p
+
+
+/*********** Section-C ************/
+
+.whatWeDoForClimate
+{
+    display: grid;
+    width: 100%;
+    height: 108em;
+    grid-template-columns: 8.51% 82.97% 8.52%;
+    grid-template-rows: 2.48% 2.31% 1.27% 7.75% 4.74% 79.57% 1.88%;
+    background-color: #354463;
+    border: 1px solid black;
+    grid-template-areas:
+    ". . ."
+    ". whatWeDo ."
+    ". . ."
+    ". ourMission ."
+    ". . ."
+    ". differentApproaches ."
+    ". . .";
+}
+.whatWeDo
+{
+    grid-area: whatWeDo;
+    width: 51.28%;
+    margin-left: 24.35%;
+    color: #354463;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    text-align: center;
+}
+.whatWeDo p
+{
+    margin-top: 0.5em;
+    font: Regular 14px/17px Helvetica; 
+}
+.ourMission
+{
+    grid-area: ourMission;
+    
+}
+.ourMission h2
+{
+    color: #FFFFFF;
+    letter-spacing: 0;
+    font-family:   Helvetica;
+    font-weight: bold;
+    font-size: 1.375em;
+    letter-spacing: 0;
+    text-align: center;
+}
+.differentApproaches
+{
+    grid-area: differentApproaches;
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 30.18 30.18 30.18%;
+    grid-template-areas: "treePlantingInitiative"
+                            " educationAndTraining"
+                            "advocacyAndCampaigning";
+    grid-row-gap: 4.73%;
+                
+}
+.differentApproaches .treePlantingInitiative
+{
+    position: relative;
+    grid-area: treePlantingInitiative;
+    background-color: #fff;
+}
+.differentApproaches .educationAndTraining
+{
+    position: relative;
+    grid-area: educationAndTraining;
+    background-color: #fff;
+}
+.differentApproaches .advocacyAndCampaigning
+{
+    position: relative;
+    grid-area: advocacyAndCampaigning;
+    background-color: #fff;
+} 
+.differentApproaches img
+{
+    position: absolute;
+    width: 79.48%;
+    height: 42.40%;
+    left: 10.25%;
+    top: -7.95%;
+}
+.headingOfDifferentApproaches
+{
+    position: absolute;
+    left: 17.62%;
+    height: 4.33%;
+    top: 42.89%;
+    width: 64.74%;
+}
+.headingOfDifferentApproaches h1
+{
+    color: #354463;
+    font-size: 1.125em;
+    text-align: left;
+    font-family: Helvetica;
+    font-weight: bold;
+    letter-spacing: 0;
+    opacity: 1;
+}
+.contentOfDifferentApproaches
+{
+    position: absolute;
+    left: 11.37%;
+    height: 2.26%;
+    top: 52.53%;
+    width: 77.56%;
+}
+.contentOfDifferentApproaches p
+{
+    color: #354463;
+    text-align: center;
+    font-family: helvetica;
+    font-weight: lighter;
+    letter-spacing:-0.01em;
+    font-size: 1em;
+    line-height: 1.5;
+}
+.readMoreButtonOfDifferentApproaches
+{
+    position: absolute;
+    border-radius: 6.25em;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    left: 25.64%;
+    height: 9.63%;
+    top: 82.65%;
+    width: 48.71%;
+}
+.readMoreButtonOfDifferentApproaches h2
+{
+    text-align: center;
+    padding-top:0.5em; 
+    font: Helvetica;
+    font-weight: bold;
+    font-size: 1.125em;
+    opacity: 1;
+    letter-spacing: 0;
+}
+
+/* ******************Section-D********************* */
+.backGroundImage
+{
+    width: 100%;
+    height: 63em;
+    background-image: url("assets//home//did-you-know-background@3x.png");
+    background-size: 100% 100%;
+}
+.climateChangeIsAHungerIssue
+{
+    
+   
+    height: 63em;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 8.51% 82.98% 8.51%;
+    grid-template-rows: 6.34% 31.74% 58.75% 3.17%;
+    grid-template-areas: ". . ."
+                        ". climateChangeHunger  ."
+                        ". aboutPovertyBlock .";
+}
+.climateChangeHunger
+{
+    grid-area: climateChangeHunger;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:60% 37.5%;
+    grid-row-gap:2.5%; 
+}
+.climateChangeHungerImage img
+{
+    width: 85%;
+    height: 100%;
+
+}
+.readMoreOnClimateChangeHunger
+{
+    height: 33.33%;
+    width: 48.71%;
+    border-radius: 6.25em;
+    background-color: #C1F7D5;
+}
+.readMoreOnClimateChangeHunger h2
+{
+    text-align: center;
+    padding-top:0.7em; 
+    font-family: Helvetica;
+    color: #354463;
+    font-weight: bold;
+    font-size: 1em;
+    opacity: 1;
+    letter-spacing: 0;
+}
+.aboutPovertyBlock
+{
+    grid-area: aboutPovertyBlock;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 22.97% 22.97% 22.97% 22.97%;
+    grid-template-areas: "povertyReason"
+                        "povertyReason"
+                        "povertyReason"
+                        "povertyReason";
+    grid-row-gap: 2.70%;
+    /* grid-auto-rows: 14.5em; */
+}
+.povertyReason 
+{
+    position: relative;
+    border: 1px solid yellow;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.povertyReason .headingOfPovertyReasons
+{
+    position: absolute;
+    top: 25%;
+    left: 10.25%;
+    height: 16.17%;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: #354463;
+    text-align: left;
+    font-size: 1.375em;
+    opacity: 1;
+}
+.povertyReason .contentOfPovertyReasons
+{
+    position: absolute;
+    top: 54.411%;
+    left: 10.25%;
+    width: 65%;
+    font-family: Helvetica;
+    font-weight: lighter;
+    color: #354463;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 0.875em;
+        
+    
+}
+/* ************Not Required**********
+.povertyReason2
+{
+    position: relative;
+    border: 1px solid yellow;
+    border: 1px solid yellow;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.povertyReason3
+{
+    border: 1px solid yellow;
+    border: 1px solid yellow;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}************************************** */
+
+.didYouKnow
+{
+    position: absolute;
+
+    width: 51.28%;
+    height: 29.41%;
+    left: 24.35%;
+    top: -14.70%;
+    background: #354463 0% 0% no-repeat padding-box;
+    
+}
+.didYouKnow p
 {
     margin-top:0.56em; 
     color: #fff !important;
     font-family: helvetica;
     text-align: center;
 } 
-
 
 
 
@@ -468,21 +732,7 @@
     margin-top: 0em;
     
 }
-.takeActionContent > div > h2
-{
-    color: #354463;
-    text-align: left;
-    font-family: Helvetica;
-    font-weight: bold;
-}
-.takeActionContent div p
-{
-    color: #354463;
-    font-family: helvetica;
-    font-weight: light;
-    font-size: 90%;
-    line-height: 1.5;
-}
+
 .takeAction
 {
     position: absolute;
@@ -494,15 +744,289 @@
     background: #354463 0% 0% no-repeat padding-box;
     
 }
-.takeAction p
+
+
+
+/*********** Section-C ************/
+
+.whatWeDoForClimate
+{
+    display: grid;
+    width: 100%;
+    height: 86.5em;
+    grid-template-columns: 8.33% 83.34% 8.33%;
+    grid-template-rows: 4.33% 2.89% 2.31% 10.11% 6.35% 69.93% 6.39%;
+    background-color: #354463;
+    border: 1px solid black;
+    grid-template-areas:
+    ". . ."
+    ". whatWeDo ."
+    ". . ."
+    ". ourMission ."
+    ". . ."
+    ". differentApproaches ."
+    ". . .";
+}
+.whatWeDo
+{
+    grid-area: whatWeDo;
+    width: 25%;
+    color: #354463;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    text-align: center;
+}
+.whatWeDo p
+{
+    margin-top: 0.6875em;
+    font: Regular 14px/17px Helvetica; 
+}
+.ourMission
+{
+    grid-area: ourMission;
+    
+}
+.ourMission h2
+{
+    color: #FFFFFF;
+    letter-spacing: 0;
+    font-family:   Helvetica;
+    font-weight: bold;
+    font-size: 2.20em;
+    letter-spacing: 0;
+}
+.differentApproaches
+{
+    grid-area: differentApproaches;
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 28.92% 28.92% 28.92%;
+    grid-template-areas: "treePlantingInitiative"
+                            " educationAndTraining"
+                            "advocacyAndCampaigning";
+    grid-row-gap: 6.61%;
+                
+}
+.differentApproaches .treePlantingInitiative
+{
+    position: relative;
+    grid-area: treePlantingInitiative;
+    background-color: #fff;
+}
+.differentApproaches .educationAndTraining
+{
+    position: relative;
+    grid-area: educationAndTraining;
+    background-color: #fff;
+}
+.differentApproaches .advocacyAndCampaigning
+{
+    position: relative;
+    grid-area: advocacyAndCampaigning;
+    background-color: #fff;
+} 
+.differentApproaches img
+{
+    position: absolute;
+    width: 45%;
+    height: 71.78%;
+    left: 5%;
+    top: -11.428%;
+}
+.headingOfDifferentApproaches
+{
+    position: absolute;
+    left: 55%;
+    height: 17.36%;
+    top: 12.5%;
+    width: 24.06%;
+}
+.headingOfDifferentApproaches h1
+{
+    color: #354463;
+    font-size: 1.375em;
+    text-align: left;
+    font-family: Helvetica;
+    font-weight: bold;
+    letter-spacing: 0;
+    opacity: 1;
+}
+.contentOfDifferentApproaches
+{
+    position: absolute;
+    left: 55%;
+    height: 40%;
+    top: 42.14%;
+    width: 38.43%;
+}
+.contentOfDifferentApproaches p
+{
+    color: #354463;
+    text-align: left;
+    font-family: helvetica;
+    font-weight: lighter;
+    letter-spacing:-0.01em;
+    font-size: 1em;
+    line-height: 1.5;
+}
+.readMoreButtonOfDifferentApproaches
+{
+    position: absolute;
+    border-radius: 6.25em;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    left: 24.375%;
+    height: 14.28%;
+    top: 68.57%;
+    width: 24.375%;
+}
+.readMoreButtonOfDifferentApproaches h2
+{
+    text-align: center;
+    padding-top:0.5em; 
+    font: Helvetica;
+    font-weight: bold;
+    font-size: 1.125em;
+    opacity: 1;
+    letter-spacing: 0;
+}
+
+/* ******************Section-D********************* */
+.backGroundImage
+{
+    width: 100%;
+    height: 52.0625em;
+    background-image: url("assets//home//did-you-know-background@3x.png");
+    background-size: 100% 100%;
+}
+.climateChangeIsAHungerIssue
+{
+    
+   
+    height: 52.0625em;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 8.07%  33.59% 50% 8.34%;
+    grid-template-rows: 7.80% 84.51% 7.69%;
+    grid-template-areas: ". . . ."
+                        ". climateChangeHunger aboutPovertyBlock ."
+                        ". . . .";
+}
+.climateChangeHunger
+{
+    grid-area: climateChangeHunger;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:32.38% 63.9%;
+    grid-row-gap: 3.72%; 
+}
+.climateChangeHungerImage img
+{
+    width: 74.80%;
+    height: 100%;
+
+}
+.readMoreOnClimateChangeHunger
+{
+    height: 8.88%;
+    width: 60.93%;
+    border-radius: 6.25em;
+    background-color: #C1F7D5;
+}
+.readMoreOnClimateChangeHunger h2
+{
+    text-align: center;
+    padding-top:0.5em; 
+    font-family: Helvetica;
+    color: #354463;
+    font-weight: bold;
+    font-size: 1.125em;
+    opacity: 1;
+    letter-spacing: 0;
+}
+.aboutPovertyBlock
+{
+    grid-area: aboutPovertyBlock;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 21.59% 21.59% 21.59%;
+    grid-template-areas: "povertyReason"
+                        "povertyReason"
+                        "povertyReason"
+                        "povertyReason";
+    grid-row-gap: 2em;
+    /* grid-auto-rows: 14.5em; */
+}
+.povertyReason 
+{
+    position: relative;
+    border: 1px solid yellow;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.povertyReason .headingOfPovertyReasons
+{
+    position: absolute;
+    top: 19.07%;
+    left: 8.33%;
+    height: 23.68%;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: #354463;
+    text-align: left;
+    font-size: 2.25em;
+    opacity: 1;
+}
+.povertyReason .contentOfPovertyReasons
+{
+    position: absolute;
+    top: 50.65%;
+    left: 8.33%;
+    width: 60%;
+    font-family: Helvetica;
+    font-weight: lighter;
+    color: #354463;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 1em;
+}
+/* ************Not Required**********
+.povertyReason2
+{
+    position: relative;
+    border: 1px solid yellow;
+    border: 1px solid yellow;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.povertyReason3
+{
+    border: 1px solid yellow;
+    border: 1px solid yellow;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}************************************** */
+
+.didYouKnow
+{
+    position: absolute;
+
+    width: 41.66%;
+    height: 26.31%;
+    left: 8.33%;
+    top: -13.15%;
+    background: #354463 0% 0% no-repeat padding-box;
+    
+}
+.didYouKnow p
 {
     margin-top:0.56em; 
     color: #fff !important;
     font-family: helvetica;
     text-align: center;
 } 
-
-
 
 
 
@@ -701,21 +1225,7 @@
     margin-top: 4.9375em;
     
 }
-.takeActionContent > div > h2
-{
-    color: #354463;
-    text-align: left;
-    font-family: Helvetica;
-    font-weight: bold;
-}
-.takeActionContent div p
-{
-    color: #354463;
-    font-family: helvetica;
-    font-weight: light;
-    font-size: 90%;
-    line-height: 1.5;
-}
+
 .takeAction
 {
     position: absolute;
@@ -727,63 +1237,12 @@
     background: #354463 0% 0% no-repeat padding-box;
     
 }
-.takeAction p
-{
-    margin-top:0.56em; 
-    color: #fff !important;
-    font-family: helvetica;
-    text-align: center;
-} 
-
-
-
-}
-
-
-/* ********Common Properties********* */
-
-.mainLogo
-{
-    grid-area: mainLogo;
-}
-.aboutUs
-{
-    grid-area: aboutUs;
-}
-.ourStories
-{
-    grid-area: ourStories;
-}
-.newsandEvents
-{
-    grid-area: newsandEvents;
-}
-.donateToday
-{
-    grid-area: donateToday;
-}
-
-
-
-/* ************Section-a ******************/
-
-.climateBox
-{
-    grid-area: climateBox;
-} 
-.stopClimateChangeImage
-{
-    grid-area: stopClimateChangeImage;
-}
-
-
-/********** Section-b**************/
 
 
 
 /*********** Section-C ************/
 
-/* .whatWeDoForClimate
+.whatWeDoForClimate
 {
     display: grid;
     height: 67.6875em;
@@ -799,17 +1258,16 @@
     ". . ."
     ". differentApproaches ."
     ". . .";
-} */
-/* .whatWeDo
+}
+.whatWeDo
 {
     grid-area: whatWeDo;
     width: 14.26%;
     color: #354463;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     text-align: center;
-    
-} */
-/* .whatWeDo p
+}
+.whatWeDo p
 {
     margin-top: 0.6875em;
     font: Regular 14px/17px Helvetica; 
@@ -832,6 +1290,8 @@
 {
     grid-area: differentApproaches;
     display: grid;
+    grid-row-gap:0em;
+    grid-template-rows: 1fr; 
     grid-template-columns: 28.57% 5.71% 28.57% 5.71% 28.57% 2.87%;
     grid-template-areas: "treePlantingInitiative . educationAndTraining . advocacyAndCampaigning . " ;
                 
@@ -917,10 +1377,10 @@
     font-size: 1.125em;
     opacity: 1;
     letter-spacing: 0;
-} */
+}
 
 /* ******************Section-D********************* */
-/* .backGroundImage
+.backGroundImage
 {
     width: 100%;
     height: 80em;
@@ -956,7 +1416,7 @@
 }
 .readMoreOnClimateChangeHunger
 {
-    height: 7.05%;
+    height: 8%;
     width: 27.77%;
     border-radius: 6.25em;
     background-color: #C1F7D5;
@@ -965,7 +1425,8 @@
 {
     text-align: center;
     padding-top:0.8125em; 
-    font: helvetica;
+    font-family: Helvetica;
+    color: #354463;
     font-weight: bold;
     font-size: 1.125em;
     opacity: 1;
@@ -976,14 +1437,16 @@
     grid-area: aboutPovertyBlock;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 22.65625% 22.65625% 22.65625% ;
-    grid-template-areas: "povertyReason1"
-                        "povertyReason2"
-                        "povertyReason3";
+    grid-template-rows: 22.65625% 22.65625% 22.65625% 22.65625;
+    grid-template-areas: "povertyReason"
+                        "povertyReason"
+                        "povertyReason"
+                        "povertyReason";
     grid-row-gap: 2em;
     grid-auto-rows: 14.5em;
 }
 .povertyReason 
+{
     position: relative;
     border: 1px solid yellow;
     width: 100%;
@@ -1013,7 +1476,8 @@
     color: #354463;
     text-align: left;
     line-height: 1.5;
-} */
+    font-size: 1.25em;
+}
 /* ************Not Required**********
 .povertyReason2
 {
@@ -1033,7 +1497,7 @@
     background-color: #fff;
 }************************************** */
 
-/* .didYouKnow
+.didYouKnow
 {
     position: absolute;
 
@@ -1050,7 +1514,79 @@
     color: #fff !important;
     font-family: helvetica;
     text-align: center;
-}  */
+} 
+
+
+
+
+
+}
+
+
+/* ********Common Properties********* */
+
+.mainLogo
+{
+    grid-area: mainLogo;
+}
+.aboutUs
+{
+    grid-area: aboutUs;
+}
+.ourStories
+{
+    grid-area: ourStories;
+}
+.newsandEvents
+{
+    grid-area: newsandEvents;
+}
+.donateToday
+{
+    grid-area: donateToday;
+}
+
+
+
+/* ************Section-a ******************/
+
+.climateBox
+{
+    grid-area: climateBox;
+} 
+.stopClimateChangeImage
+{
+    grid-area: stopClimateChangeImage;
+}
+
+
+/********** Section-b**************/
+.takeActionContent > div > h2
+{
+    color: #354463;
+    text-align: left;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+.takeActionContent div p
+{
+    color: #354463;
+    font-family: helvetica;
+    font-weight: light;
+    font-size: 90%;
+    line-height: 1.5;
+}
+.takeAction p
+{
+    margin-top:0.56em; 
+    color: #fff !important;
+    font-family: helvetica;
+    text-align: center;
+} 
+
+
+
+
 
 
 
