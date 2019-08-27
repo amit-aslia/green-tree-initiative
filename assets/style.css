@@ -2,9 +2,10 @@
 {
     margin: 0;
     padding: 0;
+    
 }
 /*-------Header-------*/
-@media only screen and (max-width: 768px)
+@media only screen and (max-width: 48em)
 {
     .header
     {
@@ -523,12 +524,81 @@
     text-align: center;
 } 
 
+/** *************Section-F**************** */
+.subscribe
+{
+    background-color: #C1F7D5;
+    display: grid;
+    width: 100%;
+    height: 13.5em;
+    grid-template-columns: 8.51% 85.63% 5.86%;
+    grid-template-rows: 16.66% 68.51% 14.83%;
+    grid-template-areas: ". . ."
+                        ". subscriptionDetails ."
+                        ". . .";
+}
+
+.subscriptionDetails
+{
+    grid-area: subscriptionDetails;
+    display: grid;
+    grid-template-columns: 59.62% 40.32%;
+    grid-template-rows: 52.70 27.02%;
+    grid-gap:20.28% 0%;
+    grid-template-areas: "headingOfSubscriptionDetails headingOfSubscriptionDetails"
+                        "mailIdforSubscription readMoreForSubscription";
+}
+
+.headingOfSubscriptionDetails
+{
+    grid-area: headingOfSubscriptionDetails;
+} 
+
+.headingOfSubscriptionDetails h2
+ {
+     color: #354463;
+     font-size: 1.375em;
+     font-family: Helvetica;
+     font-weight: bold;
+     text-align: left;
+     letter-spacing: 0;
+ }
+ .mailIdforSubscription
+ {
+     grid-area: mailIdforSubscription;
+     background-color: #fff;
+     margin: 0em 0em;
+     border-radius: 6.25em;
+ }
+ .mailIdforSubscription p
+ {
+     margin: 0.9em 0em 0.75em 0.85em;
+     font-family: Helvetica;
+     font-size: 0.9em;
+}
+
+.readMoreForSubscription
+{
+    grid-area: readMoreForSubscription;
+    margin: 0em 0em 0em 0.5em;
+    border-radius: 6.25em;
+    background-color: #354463;
+}
+.readMoreForSubscription h2
+{
+    margin: 0.75em 0em 0em 0em;
+    font-family: Helvetica;
+    font-size: 1em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
 
 
 }
 
 
-@media only screen and (min-width: 768px)
+@media only screen and (min-width: 48em)
 {
     .header
     {
@@ -1029,13 +1099,234 @@
 } 
 
 
+/* ************************Section-E**************** */
+/* .letsTakeActionNow
+{
+    height: 76.56em;
+    width: 100%;
+    display: grid;
+    background-color: #354463;
+    grid-template-columns: 8.33% 82.29% 9.38%;
+    grid-template-rows: 5.38% 7.34% 4.81% 36.81% 6.25% 33.38% 6.03%;
+    grid-template-areas: ". . ."
+                        ". headingOfletsTakeActionNow ."
+                        ". . ."
+                        ". earthDay ."
+                        ". . ."
+                        ". allUpdates ."
+                        ". . .";
+}
 
+.headingOfletsTakeActionNow
+{
+    grid-area:headingOfletsTakeActionNow; 
+    width: 81.96%;
+    height: 100%;
+}
+.headingOfletsTakeActionNow h2
+{
+    color: #FFFFFF;
+    text-align: left;
+    letter-spacing: 0;
+    font-size: 2.75em;
+    font-family: flood-std;
+    line-height: 1;
 
+    opacity: 1;
+}
+.earthDay
+{
+    grid-area: earthDay;
+    display: grid;
+    grid-template-columns:45.56% 42.85%;
+    grid-column-gap: 11.59%;
+    grid-template-areas: "earthDayImage earthDay2018";
+}
+.earthdayImage
+{
+    grid-area: earthDayImage;
+}
+.earthDayImage img
+{
+    width: 100%;
+    height: 63.85%;
+}
+.earthDay2018 
+{
+    grid-area: earthDay2018;
+    position: relative;
+}
+.event .latestNews
+{
+    position: absolute;
+    height: 8.86%;
+    width: 59.70%;
+    background-color: #fff;
+    
+}
+.event p , .latestNews p
+{
+    font-family: Helvetica;
+    text-align: center;
+    font-weight: lighter;
+    padding-top:0.6em; 
+    font-size: 0.875em;
+    color: #354463;
+    letter-spacing: 0.35em;
+}
+.headingOfearthDay2018 , .updatesFromTheFall
+{
+    position: absolute;
+    top: 15.27%;
+}
+.headingOfearthDay2018 h2 , .updatesFromTheFall h2
+{
+    color: #ffffff;
+    font-size: 2.75em;
+    text-align: left;
+    font-family: Helvetica;
+    font-weight: bold;
+    letter-spacing: 0;
+}
+.contentofearthDay2018 , .contentOfAllUpdates
+{
+    position: absolute;
+    top: 47.74%;
+    width: 100%;
+}
+.contentofearthDay2018 p , .contentOfAllUpdates p
+{
+    text-align: left;
+    color:#ffffff;
+    font-size: 1.25em;
+    line-height: 1.5;
+    font-family: Helvetica;
+    font-weight: lighter;
+    letter-spacing: -0.025em;
+}
+.readMoreOnearthDay2018 , .readMoreAllUpdates
+{
+    position: absolute;
+    height: 8.33%;
+    width: 35.71%;
+    top: 82.63%;
+    border-radius: 6.25em;
+    background-color: #C1F7D5;
+}
+.readMoreOnearthDay2018 h2 , .readMoreAllUpdates h2
+{
+    text-align: center;
+    padding-top:0.8125em; 
+    font-family: Helvetica;
+    color: #354463;
+    font-weight: bold;
+    font-size: 1.125em;
+    opacity: 1;
+    letter-spacing: 0;
+}
+
+.allUpdates
+{
+    grid-area: allUpdates;
+    height: 100%;
+    display: grid;
+    grid-template-columns:40% 51.42%;
+    grid-column-gap: 9.41%;
+    grid-template-areas: "insideAllUpdates allUpdatesImage";
+}
+
+.insideAllUpdate
+{
+    grid-area: insideAllUpdates;
+    position: relative;
+}
+.allUpdatesImage
+{
+    grid-area: allUpdatesImage;
+}
+.allUpdatesImage img
+{
+    width: 100%;
+    height: 100%;
+} */
+
+/* *************Section-F**************** */
+.subscribe
+{
+    background-color: #C1F7D5;
+    display: grid;
+    width: 100%;
+    height: 15.9375em;
+    grid-template-columns: 8.33% 83.33% 8.34%;
+    grid-template-rows: 23.92% 51.37% 24.71%;
+    grid-template-areas: ". . ."
+                        ". subscriptionDetails ."
+                        ". . .";
+}
+
+.subscriptionDetails
+{
+    grid-area: subscriptionDetails;
+    display: grid;
+    grid-template-columns: 70% 25%;
+    grid-template-rows: 45.03% 30.53%;
+    grid-gap:24.44% 5%;
+    grid-template-areas: "headingOfSubscriptionDetails ."
+                        "mailIdforSubscription readMoreForSubscription";
+}
+
+.headingOfSubscriptionDetails
+{
+    grid-area: headingOfSubscriptionDetails;
+} 
+
+.headingOfSubscriptionDetails h2
+ {
+     color: #354463;
+     font-size: 1.375em;
+     font-family: Helvetica;
+     font-weight: bold;
+     text-align: left;
+     letter-spacing: 0;
+ }
+ .mailIdforSubscription
+ {
+     grid-area: mailIdforSubscription;
+     background-color: #fff;
+     margin: 0em 0em;
+     border-radius: 6.25em;
+ }
+ .mailIdforSubscription p
+ {
+     margin: 0.45em 0em 0em 1.5em;
+     font-family: Helvetica;
+     font-size: 1.25em;
+}
+
+.readMoreForSubscription
+{
+    grid-area: readMoreForSubscription;
+    margin: 0em 0em;
+    border-radius: 6.25em;
+    background-color: #354463;
+}
+.readMoreForSubscription h2
+{
+    margin: 0.75em 0em 0em 0em;
+    font-family: Helvetica;
+    font-size: 1.125em;
+    color: #FFFFFF;
+    text-align: center;
+}
 
 
 
 }
-@media only screen and (min-width: 1024px)
+
+/* *********************************************************************************************************************** */
+/* *********************************************************************************************************************** */
+/* *********************************************************************************************************************** */
+@media only screen and (min-width: 64em)
 {
 .header
 {   
@@ -1517,10 +1808,232 @@
 } 
 
 
+/* ************************Section-E**************** */
+.letsTakeActionNow
+{
+    height: 107.875em;
+    width: 100%;
+    display: grid;
+    background-color: #354463;
+    grid-template-columns: 11.11% 77.78% 11.11%;
+    grid-template-rows: 7.41% 8.57% 4.32% 33.57% 6.48% 33.37% 6.48%;
+    grid-template-areas: ". . ."
+                        ". headingOfletsTakeActionNow ."
+                        ". . ."
+                        ". earthDay ."
+                        ". . ."
+                        ". allUpdates ."
+                        ". . .";
+}
+
+.headingOfletsTakeActionNow
+{
+    grid-area:headingOfletsTakeActionNow; 
+    width: 75.625%;
+    height: 100%;
+}
+.headingOfletsTakeActionNow h2
+{
+    color: #FFFFFF;
+    text-align: left;
+    letter-spacing: 0;
+    font-size: 4.5em;
+    font-family: flood-std;
+    line-height: 1;
+    opacity: 1;
+}
+.earthDay
+{
+    grid-area: earthDay;
+    display: grid;
+    grid-template-columns:51.42% 40%;
+    grid-column-gap: 9.41%;
+    grid-template-areas: "earthDayImage earthDay2018";
+}
+.earthdayImage
+{
+    grid-area: earthDayImage;
+}
+.earthDayImage img
+{
+    width: 100%;
+}
+.earthDay2018 
+{
+    grid-area: earthDay2018;
+    width: 100%;
+    position: relative;
+}
+.event .latestNews
+{
+    position: absolute;
+    height: 6.94%;
+    width: 35.71%;
+    background-color: #fff;
+    
+}
+.event p , .latestNews p
+{
+    font-family: Helvetica;
+    text-align: center;
+    font-weight: lighter;
+    padding-top:0.6em; 
+    font-size: 0.875em;
+    color: #354463;
+    letter-spacing: 0.35em;
+}
+.headingOfearthDay2018 , .updatesFromTheFall
+{
+    position: absolute;
+    top: 15.27%;
+}
+.headingOfearthDay2018 h2 , .updatesFromTheFall h2
+{
+    color: #ffffff;
+    font-size: 2.75em;
+    text-align: left;
+    font-family: Helvetica;
+    font-weight: bold;
+    letter-spacing: 0;
+}
+.contentofearthDay2018 , .contentOfAllUpdates
+{
+    position: absolute;
+    top: 47.74%;
+    width: 100%;
+}
+.contentofearthDay2018 p , .contentOfAllUpdates p
+{
+    text-align: left;
+    color:#ffffff;
+    font-size: 1.25em;
+    line-height: 1.5;
+    font-family: Helvetica;
+    font-weight: lighter;
+    letter-spacing: -0.025em;
+}
+.readMoreOnearthDay2018 , .readMoreAllUpdates
+{
+    position: absolute;
+    height: 8.33%;
+    width: 35.71%;
+    top: 82.63%;
+    border-radius: 6.25em;
+    background-color: #C1F7D5;
+}
+.readMoreOnearthDay2018 h2 , .readMoreAllUpdates h2
+{
+    text-align: center;
+    padding-top:0.8125em; 
+    font-family: Helvetica;
+    color: #354463;
+    font-weight: bold;
+    font-size: 1.125em;
+    opacity: 1;
+    letter-spacing: 0;
+}
+
+.allUpdates
+{
+    grid-area: allUpdates;
+    display: grid;
+    grid-template-columns:40% 51.42%;
+    grid-column-gap: 9.41%;
+    grid-template-areas: "insideAllUpdates allUpdatesImage";
+}
+
+.insideAllUpdate
+{
+    grid-area: insideAllUpdates;
+    position: relative;
+}
+.allUpdatesImage
+{
+    grid-area: allUpdatesImage;
+}
+.allUpdatesImage img
+{
+    width: 100%;
+}
+
+
+/* ********Section-F ********************/
+
+.subscribe
+{
+    background-color: #C1F7D5;
+    display: grid;
+    width: 100%;
+    height: 13em;
+    grid-template-columns: 11.11% 77.77% 11.12%;
+    grid-template-rows: 33.17% 33.66% 33.17%;
+    grid-template-areas: ". . ."
+                        ". subscriptionDetails ."
+                        ". . .";
+}
+
+.subscriptionDetails
+{
+    grid-area: subscriptionDetails;
+    display: grid;
+    grid-template-columns: 48.57% 31.42% 14.28%;
+    grid-template-rows: 100%;
+    grid-gap:  0% 2.865%;
+    grid-template-areas: "headingOfSubscriptionDetails mailIdforSubscription readMoreForSubscription";
+ }
+.headingOfSubscriptionDetails
+{
+    grid-area: headingOfSubscriptionDetails;
+}
+ .headingOfSubscriptionDetails h2
+ {
+     color: #354463;
+     font-size: 1.75em;
+     font-family: Helvetica;
+     font-weight: bold;
+     text-align: left;
+     letter-spacing: 0;
+ }
+ .mailIdforSubscription
+ {
+     grid-area: mailIdforSubscription;
+     background-color: #fff;
+     margin: 0.6875em 0em;
+     border-radius: 6.25em;
+ }
+ .mailIdforSubscription p
+ {
+     margin: 0.7em 0em 0.8125em 1em;
+     font-family: Helvetica;
+     font-size: 1.25em;
+     text-align: left;
+     font-weight: lighter;
+}
+
+.readMoreForSubscription
+{
+    grid-area: readMoreForSubscription;
+    margin: 0.6875em 0em;
+    border-radius: 6.25em;
+    background-color: #354463;
+}
+.readMoreForSubscription h2
+{
+    margin: 0.7em 0em 0em 0em;
+    font-family: Helvetica;
+    font-size: 1.25em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+
 
 
 
 }
+/* ***************************************** */
+
 
 
 /* ********Common Properties********* */
@@ -1583,6 +2096,12 @@
     font-family: helvetica;
     text-align: center;
 } 
+
+
+/* ********Section-E ********************/
+
+
+
 
 
 
