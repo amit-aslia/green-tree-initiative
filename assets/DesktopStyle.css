@@ -1,0 +1,742 @@
+
+@media only screen and (min-width: 64em)
+{
+.header
+{   
+    /*  Layout Properties*/
+    height: 8em;
+    display: grid;
+    grid-template-columns:11.11% 11.11% 15.55% 4.375% 8.95% 5.34% 7.98% 8.61% 4.93% 11.11% 10.935%;
+    grid-template-areas: ". mainLogo . aboutUs . ourStories . newsandEvents . donateToday .";
+    text-align: center;
+}
+.header div p
+{
+    /* Layout Properties*/
+    text-align: left;
+    padding-top:2.5em;
+    /* Display Properties*/
+    font-size: 96%;
+    color: #354463;
+    font: Light 16px/24px Helvetica;
+    opacity: 1;
+    letter-spacing: -0.16px;
+}
+.header .ourStories p
+    {
+        margin-top: 0em !important;
+    }
+
+.header .mainLogo h3
+{
+    /* Layout Properties*/
+    text-align: left;
+    padding-top:1em; 
+    /* UI Properties */
+    color: #354463;
+    font-size:140%;
+    font: Bold  Helvetica;
+    opacity: 1;
+    letter-spacing: 0;
+    
+}
+.header .donateToday
+{
+    height: 3em;
+    width: 10em;
+    margin-top: 2.5em;
+    background-color: #c1f7d5;
+    border-radius: 1.5em;
+    
+}
+ .header .donateToday h4
+{
+    /* Layout Properties*/
+    margin-top: 0.8025em;
+    text-align: center;
+     /* UI Properties */
+    opacity: 1;
+    color: #354463;
+    font: Bold 18px/22px Helvetica;
+}
+
+/* *****Header Completed*********** */
+/* ******Section-A **********/
+
+.grid
+{
+    width: 100%;
+    height: 42em;
+    display: grid;
+    grid-template-columns: 11.11% 37.77% 9.375% 20.55% 21.195%;
+    grid-template-rows: 19.04% 80.95%;
+    grid-template-areas:". . . . ." ". climateBox . stopClimateChangeImage ."
+}
+.bgImage
+{
+    
+    background-image: url("assets//home//annie-spratt-135307-unsplash@3x.png");
+    width: 100%;
+    height: 42em;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.climateBox
+{
+    position: relative;
+    width: 100%;
+    height: 76.47%;
+    background: #ffffff 0% 0% no-repeat border-box;
+}
+.theIssuue
+{
+    position: absolute;
+    width: 29.411%;
+    height: 9.66%;
+    left: 11.76%;
+    top: -4.80%;
+    background: #354463 0% 0% no-repeat padding-box; 
+}
+.theIssuue p
+{
+    margin-top:0.56em; 
+    color: #fff !important;
+    
+    text-align: center; 
+} 
+.contentOfClimateBox
+{
+    /* border: 1px solid red; */
+    position: absolute;
+    height:53.125%;
+    width: 76.470%;
+    left: 11.764%;
+    top:18.269%;
+    background-color: #fff;
+    
+}
+.contentOfClimateBox h2
+{
+    
+    font-weight: bold;
+    font-size: 2.75vw;
+    text-align: left;
+    letter-spacing: 0;
+    color: #354463;
+} 
+.readMorecontentOfClimateBox
+{
+    position: absolute;
+    top: 78.125%;
+    height: 3.84%;
+    width: 69.11%;
+    left: 11.76%;
+}
+.readMorecontentOfClimateBox p
+{
+    
+    font-weight: lighter;
+    text-decoration: underline;
+    letter-spacing: -0.01em;
+    color: #354463;
+    opacity: 1;
+}
+
+
+.stopClimateChangeImage img
+{
+    height: 41.176%;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+/* ********Section-B************* */
+
+.takeActionContent
+{
+    position: relative;
+     
+    background-color: #c1f7D5;
+    display: grid;
+    height: 15em;
+    grid-template-columns: 11.11% 16.11% 3.888% 16.11% 3.888% 16.11% 3.888% 16.11% 12.786%;
+    grid-template-areas:
+    ". column1 . column2 . column3 . column4 ."
+}
+
+
+.learn
+{
+    grid-area: column1;
+    margin-top: 4.9375em;
+}
+.volunteer
+{
+    grid-area: column2;
+    margin-top: 4.9375em;
+    
+}
+.share
+{
+    grid-area: column3;
+    margin-top: 4.9375em;
+    
+}
+.donate
+{
+    grid-area: column4;
+    margin-top: 4.9375em;
+    
+}
+
+.takeAction
+{
+    position: absolute;
+
+    width: 11.11%;
+    height: 16.66%;
+    left: 44.44%;
+    top: -8.33%;
+    background: #354463 0% 0% no-repeat padding-box;
+    
+}
+
+
+
+/*********** Section-C ************/
+
+.whatWeDoForClimate
+{
+    display: grid;
+    height: 67.6875em;
+    grid-template-columns: 11.11% 77.91% 10.98%;
+    grid-template-rows: 8.125% 3.69% 4.70% 12.92% 7.017% 48.75% 14.798%;
+    background-color: #354463;
+    border: 1px solid black;
+    grid-template-areas:
+    ". . ."
+    ". whatWeDo ."
+    ". . ."
+    ". ourMission ."
+    ". . ."
+    ". differentApproaches ."
+    ". . .";
+}
+.whatWeDo
+{
+    grid-area: whatWeDo;
+    width: 14.26%;
+    margin-left: 0%;
+}
+.whatWeDo p
+{
+    margin-top: 0.6875em;
+}
+.ourMission
+{
+    grid-area: ourMission;
+    
+}
+.ourMission h2
+{
+    font-size: 2.75em;
+    letter-spacing: 0;
+}
+.differentApproaches
+{
+    grid-area: differentApproaches;
+    display: grid;
+    grid-row-gap:0em;
+    grid-template-rows: 1fr; 
+    grid-template-columns: 28.57% 5.71% 28.57% 5.71% 28.57% 2.87%;
+    grid-template-areas: "treePlantingInitiative . educationAndTraining . advocacyAndCampaigning . " ;
+                
+}
+.differentApproaches .treePlantingInitiative
+{
+    grid-area: treePlantingInitiative;
+}
+.differentApproaches .educationAndTraining
+{
+    grid-area: educationAndTraining;
+}
+.differentApproaches .advocacyAndCampaigning
+{
+    grid-area: advocacyAndCampaigning;
+} 
+.differentApproaches img
+{
+    width: 100%;
+    height: 42.42%;
+    left: 10%;
+    top: -6.06%;
+}
+.headingOfDifferentApproaches
+{
+    left: 10%;
+    height: 13.25%;
+    top: 41.85%;
+    width: 90%;
+}
+.headingOfDifferentApproaches h1
+{
+    font-size: 1.75em;
+}
+.contentOfDifferentApproaches
+{
+    left: 10%;
+    height: 27.27%;
+    top: 57.57%;
+    width: 90%;
+}
+.contentOfDifferentApproaches p
+{
+    color: #354463;
+    text-align: left;
+}
+.readMoreButtonOfDifferentApproaches
+{
+    left: 10%;
+    height: 9.09%;
+    top: 84.84%;
+    width: 50%;
+}
+
+
+/* ******************Section-D********************* */
+.backGroundImage
+{
+    height: 80em;
+}
+.climateChangeIsAHungerIssue
+{
+    
+   
+    height: 80em;
+    display: grid;
+    grid-template-columns: 11.11% 40% 37.77% 11.12%;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas: ". . . ."
+                        ". climateChangeHunger aboutPovertyBlock ."
+                        ". . . .";
+}
+.climateChangeHunger
+{
+    grid-area: climateChangeHunger;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:29.29% 66.4062%;
+    grid-row-gap: 4.29%; 
+}
+.climateChangeHungerImage img
+{
+    width: 75.86%;
+
+}
+.readMoreOnClimateChangeHunger
+{
+    height: 8%;
+    width: 27.77%;
+}
+.readMoreOnClimateChangeHunger h2
+{
+    padding-top:0.8125em;     
+    font-size: 1.125em;
+}
+.aboutPovertyBlock
+{
+    grid-area: aboutPovertyBlock;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 22.65625% 22.65625% 22.65625% 22.65625;
+    grid-template-areas: "povertyReason"
+                        "povertyReason"
+                        "povertyReason"
+                        "povertyReason";
+    grid-row-gap: 2em;
+    grid-auto-rows: 14.5em;
+}
+
+.povertyReason .headingOfPovertyReasons
+{
+    top: 26.72%;
+    left: 11.76%;
+    font-size: 2.75em;
+}
+.povertyReason .contentOfPovertyReasons
+{
+    top: 47.84%;
+    left: 11.76%;
+    width: 61.76%;
+    font-size: 1.25em;
+}
+.povertyReason .twitterLogo
+{
+    width: 5.8%;
+    height: 13.79%;
+    left: 83.82%;
+    top: 32.75%;
+}
+.povertyReason .facebookLogo
+{
+    width: 5.8%;
+    height: 13.79%;
+    left: 83.82%;
+    top: 53.44%;
+}
+.didYouKnow
+{
+    width: 29.4117%;
+    height: 17.24%;
+    left: 11.58%;
+    top: -8.62%;
+}
+.didYouKnow p
+{
+    margin-top:0.56em; 
+} 
+
+/* ***********Section-E *********************/
+ .stories
+    {
+		height: 51.5em;
+    }
+    .storiesImage
+    {
+		width: 44.44%;
+        height: 68.93%;
+        right: 11.11%;
+        top: 15.53%;
+    }
+   
+    .storiesSection 
+    {
+		width: 85%;
+        height: 60.56%;
+        top: 19.71%;
+        right: 90%;
+    }
+    .legend
+    {
+        height: 7.04%;
+        width: 25%;
+        left: 10%;
+        top: -3.52%;
+  	}
+
+    .contentOfStories
+    {
+        width: 76.97%;
+        height: 59.97%;
+        top: 15.11%;
+        left: 11.76%;
+    }
+    .contentOfStories h2
+    {
+        font-size: 1.6em;
+    }
+    .tagLineOfContent
+    {
+		height: 4.06%;
+        width: 70%;
+        top: 77.17%;
+        left: 11.76%;
+    }
+    .tagLineOfContent p
+    {
+
+        font-size: 0.875em;
+
+    }
+   
+    .readMoreStories
+    {
+
+        height: 5.82%;
+        width: 11.11%;
+        top: 78.64%;
+        left: 11.11%;
+
+    }
+   .readMoreStories h2
+    {
+
+    padding-top:0.8125em; 
+	font-size: 1.125em;
+
+    }
+
+
+
+    .letsTakeActionNow
+{
+    height: 107.875em;
+    width: 100%;
+    display: grid;
+    background-color: #354463;
+    grid-template-columns: 11.11% 77.78% 11.11%;
+    grid-template-rows: 7.41% 8.57% 4.32% 33.57% 6.48% 33.37% 6.48%;
+    grid-template-areas: ". . ."
+                        ". headingOfletsTakeActionNow ."
+                        ". . ."
+                        ". earthDay ."
+                        ". . ."
+                        ". allUpdates ."
+                        ". . .";
+}
+
+.headingOfletsTakeActionNow
+{
+    grid-area:headingOfletsTakeActionNow; 
+    width: 75.625%;
+    height: 100%;
+}
+.headingOfletsTakeActionNow h2
+{
+    color: #FFFFFF;
+    text-align: left;
+    letter-spacing: 0;
+    font-size: 4.5em;
+    font-family: flood-std;
+    line-height: 1;
+    opacity: 1;
+}
+.earthDay
+{
+    grid-area: earthDay;
+    display: grid;
+    grid-template-columns:51.42% 40%;
+    grid-column-gap: 9.41%;
+    grid-template-areas: "earthDayImage earthDay2018";
+}
+.earthdayImage
+{
+    grid-area: earthDayImage;
+    background-image: url("assets/home/tree-planting@3x.png");
+    background-size: 100% 100%;
+    height: 100%;
+}
+
+.earthDay2018 
+{
+    grid-area: earthDay2018;
+    width: 100%;
+    position: relative;
+}
+.event .latestNews
+{
+    position: absolute;
+    height: 6.94%;
+    width: 35.71%;
+    background-color: #fff;
+    
+}
+.event p , .latestNews p
+{
+    
+    text-align: center;
+    font-weight: lighter;
+    padding-top:0.9em; 
+    font-size: 1.125em;
+    color: #354463;
+    letter-spacing: 0.35em;
+}
+.headingOfearthDay2018 , .updatesFromTheFall
+{
+    position: absolute;
+    top: 15.27%;
+}
+.headingOfearthDay2018 h2 , .updatesFromTheFall h2
+{
+    color: #ffffff;
+    font-size: 2.75em;
+    text-align: left;
+    
+    font-weight: bold;
+    letter-spacing: 0;
+}
+.contentofearthDay2018 , .contentOfAllUpdates
+{
+    position: absolute;
+    top: 47.74%;
+    width: 100%;
+}
+.contentofearthDay2018 p , .contentOfAllUpdates p
+{
+    text-align: left;
+    color:#ffffff;
+    font-size: 1.25em;
+    line-height: 1.5;
+    
+    font-weight: lighter;
+    letter-spacing: -0.025em;
+}
+.readMoreOnearthDay2018 , .readMoreAllUpdates
+{
+    position: absolute;
+    height: 8.33%;
+    width: 35.71%;
+    top: 82.63%;
+    border-radius: 6.25em;
+    background-color: #C1F7D5;
+}
+.readMoreOnearthDay2018 h2 , .readMoreAllUpdates h2
+{
+    text-align: center;
+    padding-top:0.8125em; 
+    
+    color: #354463;
+    font-weight: bold;
+    font-size: 1.125em;
+    opacity: 1;
+    letter-spacing: 0;
+}
+
+.allUpdates
+{
+    grid-area: allUpdates;
+    display: grid;
+    grid-template-columns:40% 51.42%;
+    grid-column-gap: 9.41%;
+    grid-template-areas: "insideAllUpdates allUpdatesImage";
+}
+
+.insideAllUpdate
+{
+    grid-area: insideAllUpdates;
+    position: relative;
+}
+.allUpdatesImage
+{
+    grid-area: allUpdatesImage;
+    background-image: url("assets/home/meeting@3x.png");
+    background-size: 100% 100%;
+    height: 100%;
+}
+
+
+/* ********Section-F ********************/
+
+.subscribe
+{
+    display: grid;
+    height: 13em;
+    grid-template-columns: 11.11% 77.77% 11.12%;
+    grid-template-rows: 33.17% 33.66% 33.17%;
+    grid-template-areas: ". . ."
+                        ". subscriptionDetails ."
+                        ". . .";
+}
+
+.subscriptionDetails
+{
+    grid-area: subscriptionDetails;
+    display: grid;
+    grid-template-columns: 48.57% 31.42% 14.28%;
+    grid-template-rows: 100%;
+    grid-gap:  0% 2.865%;
+    grid-template-areas: "headingOfSubscriptionDetails mailIdforSubscription readMoreForSubscription";
+ }
+.headingOfSubscriptionDetails
+{
+    grid-area: headingOfSubscriptionDetails;
+}
+ .headingOfSubscriptionDetails h2
+ {
+     font-size: 1.75em;
+ }
+ .mailIdforSubscription
+ {
+     grid-area: mailIdforSubscription;
+     background-color: #fff;
+     margin: 0.6875em 0em;
+ }
+ .mailIdforSubscription p
+ {
+     margin: 0.7em 0em 0.8125em 1em;
+     font-size: 1.25em;
+     text-align: left;
+     font-weight: lighter;
+}
+
+.readMoreForSubscription
+{
+    grid-area: readMoreForSubscription;
+    margin: 0.6875em 0em;
+    border-radius: 6.25em;
+}
+.readMoreForSubscription h2
+{
+    margin: 0.7em 0em 0em 0em;
+    font-size: 1.25em;
+}
+
+.footer
+{
+    width: 100%;
+    display: grid;
+    height: 23.125em;
+    grid-template-columns: 11.11% 13.33% 6.66% 13.33% 13.33% 13.33% 5.35% 12.56% 11%;
+    grid-template-rows: 36.16% 36.75% 27.09%;
+    grid-template-areas: ". . . . . . . . ."
+                          ". footerMainLogo . contactUs links followUs . footerImage ."
+                          ". . . . . . .  . . ";  
+
+}
+
+.footerMainLogo
+{
+    grid-area: footerMainLogo;
+}
+.footerMainLogo h2
+{
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.375em;
+    color: #354463;
+}
+.contactUs
+{
+    grid-area: contactUs;
+    width: 60%;
+}
+.contactUs h2 , .links h2 , .followUs h2
+{
+    text-align: left;
+    
+    line-height: 1.5;
+    font-size: 0.875em;
+}
+.contactUs p , .links p , .followUs p
+{
+    text-align: left;
+    font-weight: Helvetica;
+    letter-spacing: -0.0875em;
+    color: #354463;
+    font-size: 0.875em;
+    font-weight: lighter;
+}
+.links
+{
+    grid-area: links;
+    width:35%;
+    text-decoration: none;
+    margin-left: 0em;
+}
+.followUs
+{
+    grid-area: followUs;
+    width: 70%;
+}
+.footerImage
+{
+    grid-area: footerImage;
+}
+.footerImage img 
+{
+    width: 100%;
+    height: 100%;
+}
+
+}
