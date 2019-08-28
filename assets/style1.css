@@ -1,224 +1,325 @@
 
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
 @media only screen and (max-width: 48em)
 {
-    .footer
+    .stories
     {
-        height: 37.5em;
+        position: relative;
         width: 100%;
-        display: grid;
-        grid-template-columns:8.51% 35.10% 48.13% 8.26% ;
-        grid-template-rows: 11.16% 16% 13% 18.16% 9.80% 22.66% 9.22%;
-        grid-template-areas: ". . . ."
-                             ". footerMainLogo contactUs ."
-                             ". . . ."
-                             ". followUs links ."
-                             ". . . ."
-                             ". . footerImage ."
-                             ". . . .";
+        height: 52.5em;
     }
-    .footerMainLogo
+    .storiesImage
     {
-        grid-area: footerMainLogo;
+        position: absolute;
+        background-image: url("assets/home/lady-baby@3x.png");
+    
+        width: 82.97%;
+        height: 37.14%;
+        right: 8.01%;
+        top: 6.66%;
+        background-size: 100% 100%;
+        
     }
-    .footerMainLogo h2
+   
+    .storiesSection 
     {
+        position: absolute;
+        background-color:#354463;
+        width: 100%;
+        height: 94.87%;
+        top:110.25%;
+        right: 0%;
+    }
+    .legend
+    {
+        position: absolute;
+        height: 12.82%;
+        width: 51.28%;
+        left: 24.35%;
+        top: -6.41%;
+        background-color:#354463;
+    }
+    .legend p
+    {
+        text-align: center;
+        padding-top: 0.6875em;
+        color: #ffffff;
+    }
+    .contentOfStories
+    {
+        position: absolute;
+        width: 80%;
+        height: 68.58%;
+        top: 9.79%;
+        left: 10.25%;
+    }
+    .contentOfStories h2
+    {
+        font-size: 1.375em;
         text-align: left;
+        letter-spacing: 0;
+        color: #ffffff;
+        opacity: 1;
         font-family: Helvetica;
         font-weight: bold;
-        font-size: 1.125;
-        color: #354463;
     }
-    .contactUs
+    .tagLineOfContent
     {
-        grid-area: contactUs;
-        width: 70%;
-        margin-left: 1.8125em;
+        position: absolute;
+        height: 6.08%;
+        width: 85%;
+        top: 84.12%;
+        left: 10.25%;
     }
-    .contactUs h2 , .links h2 , .followUs h2
-    {
-        text-align: left;
-        font-family: Helvetica;
-        line-height: 2;
-        font-size: 0.875em;
-        color: #354463;
-    }
-    .contactUs p , .links p , .followUs p
+    .tagLineOfContent p
     {
         text-align: left;
-        font-family: Helvetica;
-        letter-spacing: -0.0875em;
-        color: #354463;
-        font-size: 0.875em;
-        font-weight: lighter;
-        line-height: 1.5;
-    }
-    .links
-    {
-        grid-area: links;
-        width: 40%;
         text-decoration: underline;
-        margin-left: 1.8125em;
+        font-size: 0.6875em;
+        letter-spacing: -0.035;
+        color: #ffffff;
+        opacity: 1;
     }
-    .followUs
+   
+    .readMoreStories
     {
-        grid-area: followUs;
-        width: 70%;
+        position: absolute;
+        height: 4.76%;
+        width: 41.48%;
+        top: 86.66%;
+        left: 20.74%;
+        border-radius: 6.25em;
+        background-color: #C1F7D5;
     }
-    .footerImage
+   .readMoreStories h2
     {
-        grid-area: footerImage;
+    text-align: center;
+    padding-top:0.5em; 
+    font-family: Helvetica;
+    color: #354463;
+    font-weight: bold;
+    font-size: 1.125em;
+    opacity: 1;
+    letter-spacing: 0;
     }
-    .footerImage img 
-    {
-        width: 100%;
-        height: 100%;
-    }
+    
 } 
 
 @media only screen and (min-width: 48em)
 {
-    .footer
+    .stories
     {
-        height: 26.5em;
+        position: relative;
         width: 100%;
-        display: grid;
+        height: 62.43em;
+    }
+    .storiesImage
+    {
+        position: absolute;
+        background-image: url("assets/home/lady-baby@3x.png");
+    
+        width: 75%;
+        height: 56.85%;
+        right: 16.66%;
+        top: 6.40%;
+        background-size: 100% 100%;
         
-        grid-template-columns: 8.33% 19.92% 9.24% 16.40% 12.76% 23.56% 9.79%;
-        grid-template-rows: 14.15% 32.54% 10.09% 32.07% 11.15%;
-        grid-template-areas: ". . . . . . ."
-                             ". footerMainLogo .  contactUs . followUs ."
-                             ". . . . . . ."
-                             ". . . links . footerImage ."
-                             ". . . . . . .";
     }
-    .footerMainLogo
+   
+    .storiesSection 
     {
-        grid-area: footerMainLogo;
-    }
-    .footerMainLogo h2
-    {
-        text-align: left;
-        font-family: Helvetica;
-        font-weight: bold;
-        font-size: 1.375em;
-        color: #354463;
-    }
-    .contactUs
-    {
-        grid-area: contactUs;
-        width: 70%;
-        margin-left: 0em;
-    }
-    .contactUs h2 , .links h2 , .followUs h2
-    {
-        text-align: left;
-        font-family: Helvetica;
-        line-height: 2;
-        font-size: 0.875em;
-        color: #354463;
-    }
-    .contactUs p , .links p , .followUs p
-    {
-        text-align: left;
-        font-weight: Helvetica;
-        letter-spacing: -0.0875em;
-        color: #354463;
-        font-size: 0.875em;
-        font-weight: lighter;
-        line-height: 1.5;
-    }
-    .links
-    {
-        grid-area: links;
-        width: 60%;
-        text-decoration: underline;
-        margin-left: 0em;
-    }
-    .followUs
-    {
-        grid-area: followUs;
-        width: 70%;
-    }
-    .footerImage
-    {
-        grid-area: footerImage;
-    }
-    .footerImage img 
-    {
+        position: absolute;
+        background-color:#354463;
         width: 100%;
-        height: 100%;
+        height: 50.52%;
+        top: 89.26%;
+        right: -11.11%;
+    }
+    .legend
+    {
+        position: absolute;
+        height: 7.04%;
+        width: 27.77%;
+        left: 11.11%;
+        top: -3.52%;
+        background-color:#354463;
+    }
+    .legend p
+    {
+        text-align: center;
+        padding-top: 0.6875em;
+        color: #ffffff;
     }
 
+    .contentOfStories
+    {
+        position: absolute;
+        width: 84.89%;
+        height: 39.93%;
+        top: 21.25%;
+        left: 11.11%;
+    }
+    .contentOfStories h2
+    {
+        font-size: 1.375em;
+        text-align: left;
+        letter-spacing: 0;
+        color: #ffffff;
+        opacity: 1;
+        font-family: Helvetica;
+        font-weight: bold;
+    }
+    .tagLineOfContent
+    {
+        position: absolute;
+        height: 4.87%;
+        width: 70%;
+        top: 73.17%;
+        left: 11.11%;
+    }
+    .tagLineOfContent p
+    {
+        text-align: left;
+        text-decoration: underline;
+        font-size: 0.875em;
+        letter-spacing: -0.035;
+        color: #ffffff;
+        opacity: 1;
+    }
+    .readMoreStories
+    {
+        position: absolute;
+        height: 4.004%;
+        width: 20.31%;
+        top: 88.76%;
+        left: 16.66%;
+        border-radius: 6.25em;
+        background-color: #C1F7D5;
+    }
+   .readMoreStories h2
+    {
+    text-align: center;
+    padding-top:0.7em; 
+    font-family: Helvetica;
+    color: #354463;
+    font-weight: bold;
+    font-size: 1.125em;
+    opacity: 1;
+    letter-spacing: 0;
+    }
+
+   
 }
 
 @media only screen and (min-width: 90em)
 {
-    .footer
+    .stories
     {
+        position: relative;
         width: 100%;
-        display: grid;
-        height: 23.125em;
-        grid-template-columns: 11.11% 13.33% 6.66% 13.33% 13.33% 13.33% 5.35% 12.56% 11%;
-        grid-template-rows: 36.16% 36.75% 27.09%;
-        grid-template-areas: ". . . . . . . . ."
-                              ". footerMainLogo . contactUs links followUs . footerImage ."
-                              ". . . . . . .  . . ";  
-
+        height: 51.5em;
     }
+    .storiesImage
+    {
+        position: absolute;
+        background-image: url("assets/home/lady-baby@3x.png");
     
-    .footerMainLogo
-    {
-        grid-area: footerMainLogo;
+        width: 44.44%;
+        height: 68.93%;
+        right: 11.11%;
+        top: 15.53%;
+        background-size: 100% 100%;
+        
     }
-    .footerMainLogo h2
+   
+    .storiesSection 
     {
+        position: absolute;
+        background-color:#354463;
+        width: 85%;
+        height: 60.56%;
+        top: 19.71%;
+        right: 90%;
+    }
+    .legend
+    {
+        position: absolute;
+        height: 7.04%;
+        width: 25%;
+        left: 10%;
+        top: -3.52%;
+        background-color:#354463;
+    }
+    .legend p
+    {
+        text-align: center;
+        padding-top: 0.6875em;
+        color: #ffffff;
+    }
+
+    .contentOfStories
+    {
+        position: absolute;
+        width: 76.97%;
+        height: 59.97%;
+        top: 15.11%;
+        left: 11.76%;
+    }
+    .contentOfStories h2
+    {
+        font-size: 1.6em;
         text-align: left;
+        letter-spacing: 0;
+        color: #ffffff;
+        opacity: 1;
         font-family: Helvetica;
         font-weight: bold;
-        font-size: 1.375em;
-        color: #354463;
     }
-    .contactUs
+    .tagLineOfContent
     {
-        grid-area: contactUs;
-        width: 60%;
-    }
-    .contactUs h2 , .links h2 , .followUs h2
-    {
-        text-align: left;
-        font-family: Helvetica;
-        line-height: 1.5;
-        font-size: 0.875em;
-        color: #354463;
-        font-weight: lighter;
-    }
-    .contactUs p , .links p , .followUs p
-    {
-        text-align: left;
-        font-weight: Helvetica;
-        letter-spacing: -0.0875em;
-        color: #354463;
-        font-size: 0.875em;
-        font-weight: lighter;
-    }
-    .links
-    {
-        grid-area: links;
-        width:35%;
-        text-decoration: none;
-    }
-    .followUs
-    {
-        grid-area: followUs;
+        position: absolute;
+        height: 4.06%;
         width: 70%;
+        top: 77.17%;
+        left: 11.76%;
     }
-    .footerImage
+    .tagLineOfContent p
     {
-        grid-area: footerImage;
+        text-align: left;
+        text-decoration: underline;
+        font-size: 0.875em;
+        letter-spacing: -0.035;
+        color: #ffffff;
+        opacity: 1;
     }
-    .footerImage img 
+   
+    .readMoreStories
     {
-        width: 100%;
-        height: 100%;
+        position: absolute;
+        height: 5.82%;
+        width: 11.11%;
+        top: 78.64%;
+        left: 11.11%;
+        border-radius: 6.25em;
+        background-color: #C1F7D5;
     }
+   .readMoreStories h2
+    {
+        text-align: center;
+    padding-top:0.8125em; 
+    font-family: Helvetica;
+    color: #354463;
+    font-weight: bold;
+    font-size: 1.125em;
+    opacity: 1;
+    letter-spacing: 0;
+    }
+
+
 }
+

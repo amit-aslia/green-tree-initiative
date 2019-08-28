@@ -2,6 +2,7 @@
 {
     margin: 0;
     padding: 0;
+    font-family: Helvetica;
     
 }
 /*-------Header-------*/
@@ -524,6 +525,9 @@
     text-align: center;
 } 
 
+/* **************Section-E**************** */
+
+
 /** *************Section-F**************** */
 .subscribe
 {
@@ -592,6 +596,156 @@
     color: #FFFFFF;
     text-align: center;
 }
+
+/* ************Footer******************** */
+
+.footer
+    {
+        height: 26.5em;
+        width: 100%;
+        display: grid;
+        
+        grid-template-columns: 8.33% 19.92% 9.24% 16.40% 12.76% 23.56% 9.79%;
+        grid-template-rows: 14.15% 32.54% 10.09% 32.07% 11.15%;
+        grid-template-areas: ". . . . . . ."
+                             ". footerMainLogo .  contactUs . followUs ."
+                             ". . . . . . ."
+                             ". . . links . footerImage ."
+                             ". . . . . . .";
+    }
+    .footerMainLogo
+    {
+        grid-area: footerMainLogo;
+    }
+    .footerMainLogo h2
+    {
+        text-align: left;
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: 1.375em;
+        color: #354463;
+    }
+    .contactUs
+    {
+        grid-area: contactUs;
+        width: 70%;
+        margin-left: 0em;
+    }
+    .contactUs h2 , .links h2 , .followUs h2
+    {
+        text-align: left;
+        font-family: Helvetica;
+        line-height: 2;
+        font-size: 0.875em;
+        color: #354463;
+    }
+    .contactUs p , .links p , .followUs p
+    {
+        text-align: left;
+        font-weight: Helvetica;
+        letter-spacing: -0.0875em;
+        color: #354463;
+        font-size: 0.875em;
+        font-weight: lighter;
+        line-height: 1.5;
+    }
+    .links
+    {
+        grid-area: links;
+        width: 60%;
+        text-decoration: underline;
+        margin-left: 0em;
+    }
+    .followUs
+    {
+        grid-area: followUs;
+        width: 70%;
+    }
+    .footerImage
+    {
+        grid-area: footerImage;
+    }
+    .footerImage img 
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+/* *************Footer****************** */
+
+    .footer
+    {
+        height: 37.5em;
+        width: 100%;
+        display: grid;
+        grid-template-columns:8.51% 35.10% 48.13% 8.26% ;
+        grid-template-rows: 11.16% 16% 13% 18.16% 9.80% 22.66% 9.22%;
+        grid-template-areas: ". . . ."
+                             ". footerMainLogo contactUs ."
+                             ". . . ."
+                             ". followUs links ."
+                             ". . . ."
+                             ". . footerImage ."
+                             ". . . .";
+    }
+    .footerMainLogo
+    {
+        grid-area: footerMainLogo;
+    }
+    .footerMainLogo h2
+    {
+        text-align: left;
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: 1.125;
+        color: #354463;
+    }
+    .contactUs
+    {
+        grid-area: contactUs;
+        width: 70%;
+        margin-left: 1.8125em;
+    }
+    .contactUs h2 , .links h2 , .followUs h2
+    {
+        text-align: left;
+        font-family: Helvetica;
+        line-height: 2;
+        font-size: 0.875em;
+        color: #354463;
+    }
+    .contactUs p , .links p , .followUs p
+    {
+        text-align: left;
+        font-family: Helvetica;
+        letter-spacing: -0.0875em;
+        color: #354463;
+        font-size: 0.875em;
+        font-weight: lighter;
+        line-height: 1.5;
+    }
+    .links
+    {
+        grid-area: links;
+        width: 40%;
+        text-decoration: underline;
+        margin-left: 1.8125em;
+    }
+    .followUs
+    {
+        grid-area: followUs;
+        width: 70%;
+    }
+    .footerImage
+    {
+        grid-area: footerImage;
+    }
+    .footerImage img 
+    {
+        width: 100%;
+        height: 100%;
+    }
+
 
 
 
@@ -1098,6 +1252,11 @@
     text-align: center;
 } 
 
+/* ************Section-E******** */
+
+
+
+
 
 /* ************************Section-E**************** */
 /* .letsTakeActionNow
@@ -1318,6 +1477,82 @@
     color: #FFFFFF;
     text-align: center;
 }
+
+
+/* **************Footer********************* */
+
+.footer
+    {
+        height: 26.5em;
+        width: 100%;
+        display: grid;
+        
+        grid-template-columns: 8.33% 19.92% 9.24% 16.40% 12.76% 23.56% 9.79%;
+        grid-template-rows: 14.15% 32.54% 10.09% 32.07% 11.15%;
+        grid-template-areas: ". . . . . . ."
+                             ". footerMainLogo .  contactUs . followUs ."
+                             ". . . . . . ."
+                             ". . . links . footerImage ."
+                             ". . . . . . .";
+    }
+    .footerMainLogo
+    {
+        grid-area: footerMainLogo;
+    }
+    .footerMainLogo h2
+    {
+        text-align: left;
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: 1.375em;
+        color: #354463;
+    }
+    .contactUs
+    {
+        grid-area: contactUs;
+        width: 70%;
+        margin-left: 0em;
+    }
+    .contactUs h2 , .links h2 , .followUs h2
+    {
+        text-align: left;
+        font-family: Helvetica;
+        line-height: 2;
+        font-size: 0.875em;
+        color: #354463;
+    }
+    .contactUs p , .links p , .followUs p
+    {
+        text-align: left;
+        font-weight: Helvetica;
+        letter-spacing: -0.0875em;
+        color: #354463;
+        font-size: 0.875em;
+        font-weight: lighter;
+        line-height: 1.5;
+    }
+    .links
+    {
+        grid-area: links;
+        width: 60%;
+        text-decoration: underline;
+        margin-left: 0em;
+    }
+    .followUs
+    {
+        grid-area: followUs;
+        width: 70%;
+    }
+    .footerImage
+    {
+        grid-area: footerImage;
+    }
+    .footerImage img 
+    {
+        width: 100%;
+        height: 100%;
+    }
+
 
 
 
@@ -1807,6 +2042,10 @@
     text-align: center;
 } 
 
+/* ***********Section-E */
+
+
+
 
 /* ************************Section-E**************** */
 .letsTakeActionNow
@@ -2026,7 +2265,76 @@
     text-align: center;
 }
 
+.footer
+{
+    width: 100%;
+    display: grid;
+    height: 23.125em;
+    grid-template-columns: 11.11% 13.33% 6.66% 13.33% 13.33% 13.33% 5.35% 12.56% 11%;
+    grid-template-rows: 36.16% 36.75% 27.09%;
+    grid-template-areas: ". . . . . . . . ."
+                          ". footerMainLogo . contactUs links followUs . footerImage ."
+                          ". . . . . . .  . . ";  
 
+}
+
+/* ************Footer********************* */
+.footerMainLogo
+{
+    grid-area: footerMainLogo;
+}
+.footerMainLogo h2
+{
+    text-align: left;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 1.375em;
+    color: #354463;
+}
+.contactUs
+{
+    grid-area: contactUs;
+    width: 60%;
+}
+.contactUs h2 , .links h2 , .followUs h2
+{
+    text-align: left;
+    font-family: Helvetica;
+    line-height: 1.5;
+    font-size: 0.875em;
+    color: #354463;
+    font-weight: lighter;
+}
+.contactUs p , .links p , .followUs p
+{
+    text-align: left;
+    font-weight: Helvetica;
+    letter-spacing: -0.0875em;
+    color: #354463;
+    font-size: 0.875em;
+    font-weight: lighter;
+}
+.links
+{
+    grid-area: links;
+    width:35%;
+    text-decoration: none;
+    margin-left: 0em;
+}
+.followUs
+{
+    grid-area: followUs;
+    width: 70%;
+}
+.footerImage
+{
+    grid-area: footerImage;
+}
+.footerImage img 
+{
+    width: 100%;
+    height: 100%;
+}
 
 
 
