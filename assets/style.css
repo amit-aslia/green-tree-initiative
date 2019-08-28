@@ -485,7 +485,40 @@
     line-height: 1.5;
     font-size: 0.875em;
         
-    
+}
+.povertyReason .twitterLogo
+{
+    position: absolute;
+    /* background-image: url("assets/home/iconmonstr-twitter-1@2x.png"); */
+    width: 10.25%;
+    height: 23.52%;
+    left: 79.48%;
+    top: 17.64%;
+    background-color: #C1F7D5;
+    border-radius: 50%;
+}
+.povertyReason .twitterLogo img
+{
+    padding: 0.5em;
+    width: 50%;
+    height: 50%;
+}
+.povertyReason .facebookLogo
+{
+    position: absolute;
+    /* background-image: url("assets/home/iconmonstr-twitter-1@2x.png"); */
+    width: 10.25%;
+    height: 23.52%;
+    left: 79.48%;
+    top: 58.82%;
+    background-color: #C1F7D5;
+    border-radius: 50%;
+}
+.povertyReason .facebookLogo img
+{
+    padding: 0.5em 0.75em;
+    width: 30%;
+    height: 50%;
 }
 /* ************Not Required**********
 .povertyReason2
@@ -1214,6 +1247,41 @@
     line-height: 1.5;
     font-size: 1em;
 }
+
+.povertyReason .twitterLogo
+{
+    position: absolute;
+    /* background-image: url("assets/home/iconmonstr-twitter-1@2x.png"); */
+    width: 8.33;
+    height: 21.05%;
+    left: 83.33%;
+    top: 21.05%;
+    background-color: #C1F7D5;
+    border-radius: 50%;
+}
+.povertyReason .twitterLogo img
+{
+    padding: 0.5em;
+    width: 50%;
+    height: 50%;
+}
+.povertyReason .facebookLogo
+{
+    position: absolute;
+    /* background-image: url("assets/home/iconmonstr-twitter-1@2x.png"); */
+    width: 8.33;
+    height: 21.05%;
+    left: 83.33%;
+    top: 57.89%;
+    background-color: #C1F7D5;
+    border-radius: 50%;
+}
+.povertyReason .facebookLogo img
+{
+    padding: 0.5em 0.75em;
+    width: 30%;
+    height: 50%;
+}
 /* ************Not Required**********
 .povertyReason2
 {
@@ -1259,155 +1327,6 @@
 
 
 /* ************************Section-E**************** */
-/* .letsTakeActionNow
-{
-    height: 76.56em;
-    width: 100%;
-    display: grid;
-    background-color: #354463;
-    grid-template-columns: 8.33% 82.29% 9.38%;
-    grid-template-rows: 5.38% 7.34% 4.81% 36.81% 6.25% 33.38% 6.03%;
-    grid-template-areas: ". . ."
-                        ". headingOfletsTakeActionNow ."
-                        ". . ."
-                        ". earthDay ."
-                        ". . ."
-                        ". allUpdates ."
-                        ". . .";
-}
-
-.headingOfletsTakeActionNow
-{
-    grid-area:headingOfletsTakeActionNow; 
-    width: 81.96%;
-    height: 100%;
-}
-.headingOfletsTakeActionNow h2
-{
-    color: #FFFFFF;
-    text-align: left;
-    letter-spacing: 0;
-    font-size: 2.75em;
-    font-family: flood-std;
-    line-height: 1;
-
-    opacity: 1;
-}
-.earthDay
-{
-    grid-area: earthDay;
-    display: grid;
-    grid-template-columns:45.56% 42.85%;
-    grid-column-gap: 11.59%;
-    grid-template-areas: "earthDayImage earthDay2018";
-}
-.earthdayImage
-{
-    grid-area: earthDayImage;
-}
-.earthDayImage img
-{
-    width: 100%;
-    height: 63.85%;
-}
-.earthDay2018 
-{
-    grid-area: earthDay2018;
-    position: relative;
-}
-.event .latestNews
-{
-    position: absolute;
-    height: 8.86%;
-    width: 59.70%;
-    background-color: #fff;
-    
-}
-.event p , .latestNews p
-{
-    font-family: Helvetica;
-    text-align: center;
-    font-weight: lighter;
-    padding-top:0.6em; 
-    font-size: 0.875em;
-    color: #354463;
-    letter-spacing: 0.35em;
-}
-.headingOfearthDay2018 , .updatesFromTheFall
-{
-    position: absolute;
-    top: 15.27%;
-}
-.headingOfearthDay2018 h2 , .updatesFromTheFall h2
-{
-    color: #ffffff;
-    font-size: 2.75em;
-    text-align: left;
-    font-family: Helvetica;
-    font-weight: bold;
-    letter-spacing: 0;
-}
-.contentofearthDay2018 , .contentOfAllUpdates
-{
-    position: absolute;
-    top: 47.74%;
-    width: 100%;
-}
-.contentofearthDay2018 p , .contentOfAllUpdates p
-{
-    text-align: left;
-    color:#ffffff;
-    font-size: 1.25em;
-    line-height: 1.5;
-    font-family: Helvetica;
-    font-weight: lighter;
-    letter-spacing: -0.025em;
-}
-.readMoreOnearthDay2018 , .readMoreAllUpdates
-{
-    position: absolute;
-    height: 8.33%;
-    width: 35.71%;
-    top: 82.63%;
-    border-radius: 6.25em;
-    background-color: #C1F7D5;
-}
-.readMoreOnearthDay2018 h2 , .readMoreAllUpdates h2
-{
-    text-align: center;
-    padding-top:0.8125em; 
-    font-family: Helvetica;
-    color: #354463;
-    font-weight: bold;
-    font-size: 1.125em;
-    opacity: 1;
-    letter-spacing: 0;
-}
-
-.allUpdates
-{
-    grid-area: allUpdates;
-    height: 100%;
-    display: grid;
-    grid-template-columns:40% 51.42%;
-    grid-column-gap: 9.41%;
-    grid-template-areas: "insideAllUpdates allUpdatesImage";
-}
-
-.insideAllUpdate
-{
-    grid-area: insideAllUpdates;
-    position: relative;
-}
-.allUpdatesImage
-{
-    grid-area: allUpdatesImage;
-}
-.allUpdatesImage img
-{
-    width: 100%;
-    height: 100%;
-} */
 
 /* *************Section-F**************** */
 .subscribe
@@ -2004,6 +1923,40 @@
     line-height: 1.5;
     font-size: 1.25em;
 }
+.povertyReason .twitterLogo
+{
+    position: absolute;
+    /* background-image: url("assets/home/iconmonstr-twitter-1@2x.png"); */
+    width: 5.8%;
+    height: 13.79%;
+    left: 83.82%;
+    top: 32.75%;
+    background-color: #C1F7D5;
+    border-radius: 50%;
+}
+.povertyReason .twitterLogo img
+{
+    padding: 0.5em;
+    width: 50%;
+    height: 50%;
+}
+.povertyReason .facebookLogo
+{
+    position: absolute;
+    /* background-image: url("assets/home/iconmonstr-twitter-1@2x.png"); */
+    width: 5.8%;
+    height: 13.79%;
+    left: 83.82%;
+    top: 53.44%;
+    background-color: #C1F7D5;
+    border-radius: 50%;
+}
+.povertyReason .facebookLogo img
+{
+    padding: 0.5em 0.75em;
+    width: 30%;
+    height: 50%;
+}
 /* ************Not Required**********
 .povertyReason2
 {
@@ -2048,152 +2001,6 @@
 
 
 /* ************************Section-E**************** */
-.letsTakeActionNow
-{
-    height: 107.875em;
-    width: 100%;
-    display: grid;
-    background-color: #354463;
-    grid-template-columns: 11.11% 77.78% 11.11%;
-    grid-template-rows: 7.41% 8.57% 4.32% 33.57% 6.48% 33.37% 6.48%;
-    grid-template-areas: ". . ."
-                        ". headingOfletsTakeActionNow ."
-                        ". . ."
-                        ". earthDay ."
-                        ". . ."
-                        ". allUpdates ."
-                        ". . .";
-}
-
-.headingOfletsTakeActionNow
-{
-    grid-area:headingOfletsTakeActionNow; 
-    width: 75.625%;
-    height: 100%;
-}
-.headingOfletsTakeActionNow h2
-{
-    color: #FFFFFF;
-    text-align: left;
-    letter-spacing: 0;
-    font-size: 4.5em;
-    font-family: flood-std;
-    line-height: 1;
-    opacity: 1;
-}
-.earthDay
-{
-    grid-area: earthDay;
-    display: grid;
-    grid-template-columns:51.42% 40%;
-    grid-column-gap: 9.41%;
-    grid-template-areas: "earthDayImage earthDay2018";
-}
-.earthdayImage
-{
-    grid-area: earthDayImage;
-}
-.earthDayImage img
-{
-    width: 100%;
-}
-.earthDay2018 
-{
-    grid-area: earthDay2018;
-    width: 100%;
-    position: relative;
-}
-.event .latestNews
-{
-    position: absolute;
-    height: 6.94%;
-    width: 35.71%;
-    background-color: #fff;
-    
-}
-.event p , .latestNews p
-{
-    font-family: Helvetica;
-    text-align: center;
-    font-weight: lighter;
-    padding-top:0.6em; 
-    font-size: 0.875em;
-    color: #354463;
-    letter-spacing: 0.35em;
-}
-.headingOfearthDay2018 , .updatesFromTheFall
-{
-    position: absolute;
-    top: 15.27%;
-}
-.headingOfearthDay2018 h2 , .updatesFromTheFall h2
-{
-    color: #ffffff;
-    font-size: 2.75em;
-    text-align: left;
-    font-family: Helvetica;
-    font-weight: bold;
-    letter-spacing: 0;
-}
-.contentofearthDay2018 , .contentOfAllUpdates
-{
-    position: absolute;
-    top: 47.74%;
-    width: 100%;
-}
-.contentofearthDay2018 p , .contentOfAllUpdates p
-{
-    text-align: left;
-    color:#ffffff;
-    font-size: 1.25em;
-    line-height: 1.5;
-    font-family: Helvetica;
-    font-weight: lighter;
-    letter-spacing: -0.025em;
-}
-.readMoreOnearthDay2018 , .readMoreAllUpdates
-{
-    position: absolute;
-    height: 8.33%;
-    width: 35.71%;
-    top: 82.63%;
-    border-radius: 6.25em;
-    background-color: #C1F7D5;
-}
-.readMoreOnearthDay2018 h2 , .readMoreAllUpdates h2
-{
-    text-align: center;
-    padding-top:0.8125em; 
-    font-family: Helvetica;
-    color: #354463;
-    font-weight: bold;
-    font-size: 1.125em;
-    opacity: 1;
-    letter-spacing: 0;
-}
-
-.allUpdates
-{
-    grid-area: allUpdates;
-    display: grid;
-    grid-template-columns:40% 51.42%;
-    grid-column-gap: 9.41%;
-    grid-template-areas: "insideAllUpdates allUpdatesImage";
-}
-
-.insideAllUpdate
-{
-    grid-area: insideAllUpdates;
-    position: relative;
-}
-.allUpdatesImage
-{
-    grid-area: allUpdatesImage;
-}
-.allUpdatesImage img
-{
-    width: 100%;
-}
 
 
 /* ********Section-F ********************/
