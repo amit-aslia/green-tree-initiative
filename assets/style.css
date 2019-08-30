@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     font-family: Helvetica;
+    /* max-width: 1440px; */
+    /* margin: 0 auto; */
 }
 /*-------Header-------*/
 @media only screen and (min-width: 6em)
