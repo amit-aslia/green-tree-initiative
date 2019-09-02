@@ -22,9 +22,9 @@
         margin-top: 0em !important;
     }
 
-.mainLogo h3
+.header .mainLogo h3
 {
-    padding-top:2.125em; 
+    padding-top:2em; 
     /* UI Properties */
     color: #354463;
     font-size:140%;
