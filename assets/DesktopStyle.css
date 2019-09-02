@@ -154,7 +154,7 @@
 .whatWeDoForClimate
 {
     display: grid;
-    height: 67.6875em;
+    height: 70vw;
     grid-template-columns: 11.11% 77.91% 10.98%;
     grid-template-rows: 8.125% 3.69% 4.70% 12.92% 7.017% 48.75% 14.798%;
     background-color: #354463;
@@ -185,7 +185,7 @@
 }
 .ourMission h2
 {
-    font-size: 2.75em;
+    font-size: 3vw;
     letter-spacing: 0;
     text-align: left;
 }
@@ -214,7 +214,7 @@
 .differentApproaches img
 {
     width: 100%;
-    height: 42.42%;
+    height: 15.55vw;
     left: 10%;
     top: -6.06%;
 }
@@ -227,7 +227,7 @@
 }
 .headingOfDifferentApproaches h1
 {
-    font-size: 1.75em;
+    font-size: 1.94vw;
 }
 .contentOfDifferentApproaches
 {
@@ -240,6 +240,7 @@
 {
     color: #354463;
     text-align: left;
+    font-size: 1.11vw;
 }
 .readMoreButtonOfDifferentApproaches
 {
