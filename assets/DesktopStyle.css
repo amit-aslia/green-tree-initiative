@@ -96,10 +96,11 @@
 }
 
 
-.stopClimateChangeImage img
+.stopClimateChangeImage
 {
     height: 41.176%;
     width: 100%;
+    font-size: 4.5em;
 }
 
 /* ********Section-B************* */
