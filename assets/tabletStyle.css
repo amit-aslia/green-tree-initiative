@@ -27,7 +27,7 @@
     opacity: 1;
     letter-spacing: 0;
 }
-.header div p
+ div p
 {
     /* Layout Properties*/
     text-align: left;
@@ -39,11 +39,11 @@
     opacity: 1;
     letter-spacing: -0.16px;
 }
-.header .ourStories p
+ .ourStories p
     {
         margin-top: 0em !important;
     }
-    .header .donateToday
+     .donateToday
     {
         height: 3em;
         width: 10em;
@@ -52,7 +52,7 @@
         border-radius: 1.5em;
         
     }
-     .header .donateToday h4
+      .donateToday h4
     {
         /* Layout Properties*/
         margin-top: 0.8025em;
@@ -242,10 +242,12 @@
     grid-area: whatWeDo;
     width: 25%;
     margin-left: 0%;
+
 }
 .whatWeDo p
 {
     margin-top: 0.6875em; 
+    text-align: center;
 }
 .ourMission
 {
@@ -268,15 +270,15 @@
     grid-row-gap: 6.61%;
                 
 }
-.differentApproaches .treePlantingInitiative
+ .treePlantingInitiative
 {
     grid-area: treePlantingInitiative;
 }
-.differentApproaches .educationAndTraining
+ .educationAndTraining
 {
     grid-area: educationAndTraining;
 }
-.differentApproaches .advocacyAndCampaigning
+ .advocacyAndCampaigning
 {
     grid-area: advocacyAndCampaigning;
 } 
@@ -372,14 +374,14 @@
     grid-row-gap: 2em;
 }
 
-.povertyReason .headingOfPovertyReasons
+ .headingOfPovertyReasons
 {
     top: 19.07%;
     left: 8.33%;
     height: 23.68%;
     font-size: 2.25em;
 }
-.povertyReason .contentOfPovertyReasons
+ .contentOfPovertyReasons
 {
     top: 50.65%;
     left: 8.33%;
@@ -387,14 +389,14 @@
     font-size: 1em;
 }
 
-.povertyReason .twitterLogo
+ .twitterLogo
 {
     width: 8.33;
     height: 21.05%;
     left: 83.33%;
     top: 21.05%;
 }
-.povertyReason .facebookLogo
+ .facebookLogo
 {
     width: 8.33;
     height: 21.05%;

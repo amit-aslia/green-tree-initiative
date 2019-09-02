@@ -37,11 +37,11 @@
     letter-spacing: -0.16px;
   }
 
-  .header .ourStories p {
+  .ourStories p {
     margin-top: 0.75em !important;
   }
 
-  .header .mainLogo h3 {
+  .mainLogo h3 {
     /* Layout Properties*/
     text-align: left;
     padding-top: 0em;
@@ -66,7 +66,7 @@
     letter-spacing: -0.16px;
   }
 
-  .header .donateToday {
+  .donateToday {
     height: 2.5em;
     width: 100%;
     margin-top: 0em;
@@ -75,7 +75,7 @@
 
   }
 
-  .header .donateToday h4 {
+  .donateToday h4 {
     /* Layout Properties*/
     margin-top: 0.625em;
     text-align: center;
@@ -292,19 +292,19 @@
 
   }
 
-  .differentApproaches .treePlantingInitiative {
+  .treePlantingInitiative {
     position: relative;
     grid-area: treePlantingInitiative;
     background-color: #fff;
   }
 
-  .differentApproaches .educationAndTraining {
+.educationAndTraining {
     position: relative;
     grid-area: educationAndTraining;
     background-color: #fff;
   }
 
-  .differentApproaches .advocacyAndCampaigning {
+   .advocacyAndCampaigning {
     position: relative;
     grid-area: advocacyAndCampaigning;
     background-color: #fff;
@@ -446,7 +446,7 @@
     background-color: #fff;
   }
 
-  .povertyReason .headingOfPovertyReasons {
+   .headingOfPovertyReasons {
     position: absolute;
     top: 25%;
     left: 10.25%;
@@ -459,7 +459,7 @@
     opacity: 1;
   }
 
-  .povertyReason .contentOfPovertyReasons {
+   .contentOfPovertyReasons {
     position: absolute;
     top: 54.411%;
     left: 10.25%;
@@ -473,7 +473,7 @@
 
   }
 
-  .povertyReason .twitterLogo {
+   .twitterLogo {
     position: absolute;
     /* background-image: url("assets/home/iconmonstr-twitter-1@2x.png"); */
     width: 10.25%;
@@ -484,13 +484,13 @@
     border-radius: 50%;
   }
 
-  .povertyReason .twitterLogo img {
+   .twitterLogo img {
     padding: 0.5em;
     width: 50%;
     height: 50%;
   }
 
-  .povertyReason .facebookLogo {
+   .facebookLogo {
     position: absolute;
     /* background-image: url("assets/home/iconmonstr-twitter-1@2x.png"); */
     width: 10.25%;
@@ -501,7 +501,7 @@
     border-radius: 50%;
   }
 
-  .povertyReason .facebookLogo img {
+   .facebookLogo img {
     padding: 0.5em 0.75em;
     width: 30%;
     height: 50%;
