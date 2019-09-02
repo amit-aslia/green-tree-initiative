@@ -117,6 +117,10 @@ a{
     font-weight: bold;
 
 }
+.year
+{
+	margin-top: 0.9em;
+}
 
 .footer{
 	height: 23.125em;
@@ -190,7 +194,7 @@ a{
 	}
 	.year
 	{
-		margin: 0.4em;
+		margin: 0.5em;
 	}
 	.payment
 	{
