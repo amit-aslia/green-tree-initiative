@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 48em)
+@media only screen and (min-width: 700px)
 {
     .header
     {
@@ -135,8 +135,9 @@
     height: 180vw;
     grid-template-columns: 8.33% 83.34% 8.33%;
     grid-template-rows: 4.33% 2.89% 2.31% 10.11% 6.35% 69.93% 6.39%;
+    grid-auto-rows: minmax(10px,auto);
     background-color: #354463;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     grid-template-areas:
     ". . ."
     ". whatWeDo ."
@@ -177,6 +178,7 @@
                             " educationAndTraining"
                             "advocacyAndCampaigning";
     grid-row-gap: 6.61%;
+    grid-auto-rows: minmax(auto,auto);
                 
 }
  .treePlantingInitiative
@@ -193,6 +195,7 @@
 } 
 .differentApproaches img
 {
+    position: absolute;
     width: 45%;
     height: 26vw;
     left: 5%;
@@ -200,9 +203,10 @@
 }
 .headingOfDifferentApproaches
 {
+    position: absolute;
     left: 55%;
     height: 17.36%;
-    top: 12.5%;
+    top: 10%;
     width: 24.06%;
 }
 .headingOfDifferentApproaches h1
@@ -213,7 +217,7 @@
 {
     left: 55%;
     height: 40%;
-    top: 42.14%;
+    top: 39%;
     width: 38.43%;
 }
 .contentOfDifferentApproaches p
@@ -223,6 +227,7 @@
 }
 .readMoreButtonOfDifferentApproaches
 {
+    position: absolute;
     left: 24.375%;
     height: 14.28%;
     top: 68.57%;

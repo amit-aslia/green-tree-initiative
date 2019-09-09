@@ -249,7 +249,10 @@
     top: 84.84%;
     width: 50%;
 }
-
+.readMoreButtonOfDifferentApproaches h2
+{
+    padding: 0.7vw;
+}
 
 /* ******************Section-D********************* */
 .backGroundImage
